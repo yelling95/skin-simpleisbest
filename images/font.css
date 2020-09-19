@@ -1,0 +1,22 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Noto Sans';
+    src: url(//i1.daumcdn.net/cfs.tistory/static/font/notokr-regular.woff2) format('woff2'),
+    url(//i1.daumcdn.net/cfs.tistory/static/font/notokr-regular.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Noto Sans';
+    src: url(//i1.daumcdn.net/cfs.tistory/static/font/notokr-demilight.woff2) format('woff2'),
+    url(//i1.daumcdn.net/cfs.tistory/static/font/notokr-demilight.woff) format('woff');
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Noto Sans';
+    src: url(//i1.daumcdn.net/cfs.tistory/static/font/notokr-bold.woff2) format('woff2'),
+    url(//i1.daumcdn.net/cfs.tistory/static/font/notokr-bold.woff) format('woff');
+    font-style: normal;
+    font-weight: bold;
+}

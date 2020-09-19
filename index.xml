@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+	<information>
+		<name>심플이즈베스트</name>
+		<version>1.0</version>
+		<description>
+			<![CDATA[ 티스토리 #1 스킨에서 불필요한 항목을 제거하고, 제 감성 조금 넣었습니다. ]]>
+		</description>
+		<license>
+			<![CDATA[ MIT License ]]>
+		</license>
+	</information>
+	<author>
+		<name>Veronica</name>
+		<homepage></homepage>
+		<email>yelling95@daum.net</email>
+	</author>
+	<contest>
+		<description>2015 반응형 스킨 공모전 기념스킨</description>
+		<preview>http://i1.daumcdn.net/cfs.tistory/static/admin/new/skin_preview_ray.png</preview>
+		<document>http://notice.tistory.com/2271</document>
+	</contest>
+	<default>
+		<recentEntries>4</recentEntries>
+		<recentComments>4</recentComments>
+		<recentTrackbacks>4</recentTrackbacks>
+		<itemsOnGuestbook>10</itemsOnGuestbook>
+		<tagsInCloud>30</tagsInCloud>
+		<sortInCloud>3</sortInCloud>
+		<expandComment>1</expandComment>
+		<expandTrackback>0</expandTrackback>
+		<lengthOfRecentNotice>25</lengthOfRecentNotice>
+		<lengthOfRecentEntry>27</lengthOfRecentEntry>
+		<lengthOfRecentComment>30</lengthOfRecentComment>
+		<lengthOfRecentTrackback>30</lengthOfRecentTrackback>
+		<lengthOfLink>30</lengthOfLink>
+		<showListOnCategory>1</showListOnCategory>
+		<showListOnArchive>1</showListOnArchive>
+		<commentMessage>
+			<none>0</none>
+			<single>1</single>
+		</commentMessage>
+		<trackbackMessage>
+			<none>0</none>
+			<single>1</single>
+		</trackbackMessage>
+		<tree>
+			<color>000000</color>
+			<bgColor>ffffff</bgColor>
+			<activeColor>000000</activeColor>
+			<activeBgColor>eeeeee</activeBgColor>
+			<labelLength>27</labelLength>
+			<showValue>1</showValue>
+		</tree>
+		<contentWidth>820</contentWidth>
+	</default>
+</skin>

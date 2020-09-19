@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="ko">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+		<title>[##_page_title_##]</title>
+		<link rel="alternate" type="application/rss+xml" title="[##_title_##]" href="[##_rss_url_##]" />
+
+		<link rel="stylesheet" href="./style.css">
+		<link rel="stylesheet" href="./images/font.css">
+
+		<!--[if lt IE 9]>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<![endif]-->
+		<!--[if gte IE 9]><!-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<!--<![endif]-->
+	</head>
+
+	<body id="[##_body_id_##]">
+		<s_t3>
+			<div id="dkIndex">
+				<a href="#dkBody">Content</a>
+				<a href="#dkGnb">Menu</a>
+			</div>
+
+			<div id="dkWrap" class="wrap_skin ">
+				<div id="dkHead" role="banner" class="area_head ">
+					<h1 class="screen_out">[##_title_##]</h1>
+					<div class="area_profile ">
+						<a class="link_profile" href="/"><img src="[##_image_##]" width="50" height="50" class="img_profile" alt="프로필사진"></a>
+						<div class="info_profile">
+							<button type="button" class="btn_name">[##_blogger_##]
+							<span class="ico_skin ico_name"></span>
+							</button>
+							<ul class="list_name">
+								<li><a href="[##_owner_url_##]/entry/post" class="link_name">Write</a></li>
+								<li><a href="[##_owner_url_##]" class="link_name">Manage</a></li>
+								<li class="box_division"><a href="[##_taglog_link_##]" class="link_name"></a></li>
+								<li><a href="[##_guestbook_link_##]" class="link_name">방명록</a></li>
+							</ul>
+							<p class="txt_condition">[##_title_##]</p>
+						</div>
+					</div>
+
+					<button type="button" class="btn_menu">
+					<span class="ico_menu">
+						<svg xmlns="http://www.w3.org/2000/svg" height="31" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path fill="#666" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+					</span>
+					</button>
+				</div>
+
+				<div class="dimmed_layer"></div>
+
+				<button type="button" class="btn_close">
+				<span class="ico_skin ico_close">Close</span>
+				</button>
+
+				<div class="area_menu">
+					<s_search>
+					<div class="area_search">
+						<button type="button" class="btn_search">
+						<span class="ico_search">
+						<svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path fill="#666" d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>	
+						</span>
+						</button>
+						<form action="#" method="get" class="frm_search" onsubmit="[##_search_onclick_submit_##]">
+						<fieldset>
+						<legend class="screen_out">검색하기 폼</legend>
+						<input type="text" name="[##_search_name_##]" value="[##_search_text_##]" class="tf_search">
+						<label for="tfSearch" class="lab_search">X</label>
+						</fieldset>
+						</form>
+					</div>
+					</s_search>
+
+					<div role="navigation" class="area_navi">
+						<button type="button" class="btn_cate">CATEGORY</button>
+
+						<div class="list_cate">
+							[##_category_list_##]
+							<ul class="menu_profile">
+								<li><a href="[##_guestbook_link_##]">Visite</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<hr class="hide">
+
+				<s_list>
+				<div class="area_list">
+					<div class="tit_category">
+						
+					</div>
+				</div>
+				</s_list>
+
+				<div id="dkContent" class="cont_skin" role="main">
+					<div id="cMain">
+						<s_article_rep>
+							<div id="mArticle" class="article_skin">
+								<s_index_article_rep>
+									<div class="list_content">
+										<s_article_rep_thumbnail>
+										<a href="[##_article_rep_link_##]" class="thumbnail_post"><img src="//i1.daumcdn.net/thumb/C148x148/?fname=[##_article_rep_thumbnail_raw_url_##]"></a>
+										</s_article_rep_thumbnail>
+										<a href="[##_article_rep_link_##]" class="link_post">
+										<strong class="tit_post">[##_article_rep_title_##]</strong>
+										<p class="txt_post">[##_article_rep_summary_##]</p>
+										</a>
+										<div class="detail_info">
+											<a href="[##_article_rep_category_link_##]" class="link_cate">[##_article_rep_category_##]</a>
+											<span class="txt_bar"></span>
+											[##_article_rep_date_##]
+										</div>
+									</div>
+								</s_index_article_rep>
+
+								<s_permalink_article_rep>
+									<div class="skin_view">
+										<h2 id="dkBody" class="screen_out">View</h2>
+										<div class="area_title">
+											<div class="tit_category"><a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a></div>
+											<h3 class="tit_post"><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h3>
+											<span class="txt_detail my_post">[##_article_rep_author_##]
+											<span class="txt_bar"></span>[##_article_rep_date_##]
+											<s_ad_div>
+											<span class="my_edit">
+											<span class="txt_bar"></span><a href="[##_s_ad_m_link_##]" class="link_detail">modify</a>
+											<span class="txt_bar"></span><a href="#" onclick="[##_s_ad_s2_onclick_##]" class="link_detail">[##_s_ad_s1_label_##]</a>
+											<span class="txt_bar"></span><a href="#" onclick="[##_s_ad_d_onclick_##]" class="link_detail">delete</a>
+											</span>
+											</s_ad_div>
+											</span>
+										</div>
+										<div class="area_view">
+											[##_article_rep_desc_##]
+										</div>
+										<div class="area_etc">
+											<strong class="screen_out">Share Link</strong>
+											<ul class="list_share">
+												<li><a href="#none" class="ico_skin link_fb" data-service="facebook">Fasebook</a></li>
+												<li><a href="#none" class="ico_skin link_tw" data-service="twitter">Twitter</a></li>
+											</ul>
+
+											<s_tag_label>
+												<dl class="list_tag">
+													<dt class="tit_tag">TAG</dt>
+													<dd class="desc_tag">[##_tag_label_rep_##]</dd>
+												</dl>
+											</s_tag_label>
+										</div>
+
+										<div class="area_reply ">
+											<strong class="tit_reply">reply
+												<button type="button" class="btn_reply" onclick="$.Area.Comment.changeStatus();[##_article_rep_rp_link_##]">
+												</button>
+											</strong>
+
+											<!-- 대체텍스트 댓글펼치기/댓글접기 변경 -->
+											<s_rp>
+												<button type="button" class="btn_replymore">pre-reply</button>
+												<s_rp_container>
+													<ul class="list_reply">
+														<s_rp_rep>
+															<li id='[##_rp_rep_id_##]' class="[##_rp_rep_class_##]">
+																<img src="//i1.daumcdn.net/thumb/C100x100/?fname=[##_rp_rep_logo_##]" width="50" height="50" class="img_profile" alt="프로필사진">
+
+																<span class="reply_content">
+																	<span class="tit_nickname">[##_rp_rep_name_##] <span class="ico_skin ico_secret"></span></span>
+																	<span class="txt_reply">[##_rp_rep_desc_##]</span>
+																	<span class="txt_date">[##_rp_rep_date_##]</span>
+																</span>
+																<button type="button" class="btn_replymenu">
+																	<span class="ico_skin ico_replymenu">reply menu</span>
+																</button>
+																<div class="my_edit">
+																	<a href="[##_rp_rep_link_##]" class="link_edit">reply addr</a>
+																	<a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="link_edit">modify</a>
+																	<a href="#" onclick="[##_rp_rep_onclick_reply_##]" class="link_edit">write</a>
+																</div>
+															</li>
+
+															<s_rp2_container>
+																<s_rp2_rep>
+																	<li id='[##_rp_rep_id_##]' class="re_reply [##_rp_rep_class_##]">
+																		<img src="//i1.daumcdn.net/thumb/C100x100/?fname=[##_rp_rep_logo_##]" width="50" height="50" class="img_profile" alt="프로필사진">
+																		<span class="reply_content">
+																			<span class="tit_nickname">[##_rp_rep_name_##] <span class="ico_skin ico_secret"></span></span>
+																			<span class="txt_reply">[##_rp_rep_desc_##]</span>
+																			<span class="txt_date">[##_rp_rep_date_##]</span>
+																		</span>
+																		<button type="button" class="btn_replymenu">
+																			<span class="ico_skin ico_replymenu">reply menu</span>
+																		</button>
+																		<div class="my_edit">
+																			<a href="[##_rp_rep_link_##]" class="link_edit">reply addr</a>
+																			<a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="link_edit">modify or delete</a>
+																		</div>
+																	</li>
+																</s_rp2_rep>
+															</s_rp2_container>
+														</s_rp_rep>
+													</ul>
+												</s_rp_container>
+												<s_rp_input_form>
+													<fieldset class="fld_reply">
+														<legend class="screen_out">댓글쓰기 폼</legend>
+														<div class="reply_write ">
+															<label for="[##_rp_input_comment_##]" class="lab_write"></label>
+															<textarea id="[##_rp_input_comment_##]" name="[##_rp_input_comment_##]" class="tf_reply" tabindex="1"></textarea>
+														</div>
+														<div class="reply_writer">
+															<s_rp_member>
+																<s_rp_guest>
+																	<div class="writer_info">
+																		<span class="info_name ">
+																		<span class="wrap_info">
+																		<input type="text" name="[##_rp_input_name_##]" id="[##_rp_input_name_##]" class="inp_info" placeholder="이름" value="[##_guest_name_##]" tabindex="2">
+																		</span>
+																		</span>
+																		<span class="info_pw ">
+																		<span class="wrap_info">
+																		<input type="password" name="[##_rp_input_password_##]" id="[##_rp_input_password_##]" class="inp_info" placeholder="비밀번호" tabindex="3">
+																		</span>
+																		</span>
+																	</div>
+																</s_rp_guest>
+																<div class="writer_check">
+																	<span class="check_secret ">
+																		<input type="checkbox" name="[##_rp_input_is_secret_##]" id="[##_rp_input_is_secret_##]" class="inp_secret" tabindex="4">
+																		<label for="[##_rp_input_is_secret_##]" class="lab_secret">
+																			<span class="ico_skin ico_check"></span>secrete
+																		</label>
+																	</span>
+																</div>
+															</s_rp_member>
+															<div class="writer_btn">
+																<button type="submit" class="btn_enter" onclick="[##_rp_onclick_submit_##]" tabindex="5">작성 완료</button>
+															</div>
+														</div>
+													</fieldset>
+												</s_rp_input_form>
+											</s_rp>
+										</div>
+									</div>
+								</s_permalink_article_rep>
+							</div>
+						</s_article_rep>
+
+						<s_tag>
+							<div class="area_list">
+								<div class="">
+									<a class="link_category"></a>
+								</div>
+							</div>
+
+							<div id="mArticle" class="article_skin skin_tag">
+								<h2 id= "dkBody" class="screen_out">Tags</h2>
+								<ul class="list_tag">
+									<s_tag_rep>
+									<li><a href="[##_tag_link_##]" class="link_tag [##_tag_class_##]">[##_tag_name_##]</a></li>
+									</s_tag_rep>
+								</ul>
+							</div>
+						</s_tag>
+
+						<s_guest>
+							<div class="area_list">
+								<div class="tit_category">
+									<a class="link_category">방명록</a>
+								</div>
+							</div>
+
+							<div id="mArticle" class="article_skin skin_visitor">
+								<h2 id= "dkBody" class="screen_out">티스토리 방명록</h2>
+								<div class="area_reply">
+									<s_guest_input_form>
+										<fieldset class="fld_reply">
+											<legend class="screen_out">댓글쓰기 폼</legend>
+											<div class="reply_write ">
+												<!-- 클릭시 'on_box' 추가 -->
+												<textarea name="[##_guest_textarea_body_##]" class="tf_reply" tabindex="1"></textarea>
+												<label for="[##_guest_textarea_body_##]" class="lab_write"></label>
+											</div>
+											<div class="reply_writer">
+												<s_guest_member>
+													<s_guest_form>
+														<div class="writer_info">
+															<span class="info_name "><!-- 클릭시 'on_box' 추가 -->
+															<label for="[##_guest_input_name_##]" class="lab_info"></label>
+															<span class="wrap_info"><input type="text" name="[##_guest_input_name_##]" class="inp_info" placeholder="이름" tabindex="2"></span>
+															</span>
+															<span class="info_pw "><!-- 클릭시 'on_box' 추가 -->
+															<label for="[##_guest_input_password_##]" class="lab_info"></label>
+															<span class="wrap_info"><input type="password" name="[##_guest_input_password_##]" class="inp_info" placeholder="비밀번호" tabindex="3"></span>
+															</span>
+														</div>
+													</s_guest_form>
+
+													<div class="writer_check">
+														<span class="check_secret ">
+															<input type="checkbox" name="[##_guest_input_is_secret_##]" id="[##_guest_input_is_secret_##]" class="inp_secret" tabindex="4">
+															<label for="[##_guest_input_is_secret_##]" class="lab_secret">
+																<span class="ico_skin ico_check"></span>secrete
+															</label>
+														</span>
+													</div>
+												</s_guest_member>
+												<div class="writer_btn">
+													<button type="submit" class="btn_enter" onclick="[##_guest_onclick_submit_##]" tabindex="5">작성 완료</button>
+												</div>
+											</div>
+										</fieldset>
+									</s_guest_input_form>
+
+									<s_guest_container>
+										<ul class="list_reply">
+											<s_guest_rep>
+												<li id="[##_guest_rep_id_##]" class="[##_guest_rep_class_##]">
+													<img src="http://t1.daumcdn.net/tistory_admin/static/skin/avatar_default.gif" width="50" height="50" class="img_profile" alt="프로필사진">
+
+													<span class="reply_content">
+														<span class="tit_nickname">[##_guest_rep_name_##]</span>
+														<span class="txt_reply">[##_guest_rep_desc_##]</span>
+														<span class="txt_date">[##_guest_rep_date_##]</span>
+													</span>
+
+													<button type="button" class="btn_replymenu"><span class="ico_skin ico_replymenu">reply menu</span></button>
+													<div class="my_edit">
+														<a href="#none" class="link_edit" onclick="[##_guest_rep_onclick_delete_##] ">modify or delete</a>
+														<a href="#none" class="link_edit" onclick="[##_guest_rep_onclick_reply_##] ">write</a>
+													</div>
+												</li>
+
+												<s_guest_reply_container>
+													<s_guest_reply_rep>
+														<li id="[##_guest_rep_id_##]" class="re_reply [##_guest_rep_class_##]">
+															<img src="http://t1.daumcdn.net/tistory_admin/static/skin/avatar_default.gif" width="50" height="50" class="img_profile" alt="프로필사진">
+
+															<span class="reply_content">
+																<span class="tit_nickname">[##_guest_rep_name_##]</span>
+																<span class="txt_reply">[##_guest_rep_desc_##]</span>
+																<span class="txt_date">[##_guest_rep_date_##]</span>
+															</span>
+
+															<button type="button" class="btn_replymenu"><span class="ico_skin ico_replymenu">reply menu</span></button>
+															<div class="my_edit">
+																<a href="#none" class="link_edit" onclick="[##_guest_rep_onclick_delete_##] ">modify or delete</a>
+															</div>
+														</li>
+													</s_guest_reply_rep>
+												</s_guest_reply_container>
+											</s_guest_rep>
+										</ul>
+									</s_guest_container>
+								</div>
+							</div>
+						</s_guest>
+
+
+						<s_paging>
+							<div class="area_paging area_paging_list">
+								<span class="inner_paging">
+									<a [##_prev_page_##] class="paging_arrow link_prev [##_no_more_prev_##]">«</a>
+									<s_paging_rep>
+										<a [##_paging_rep_link_##] class="link_page">[##_paging_rep_link_num_##]</a>
+									</s_paging_rep>
+									<a [##_next_page_##] class="paging_arrow link_next [##_no_more_next_##]">»</a>
+								</span>
+							</div>
+
+							<div class="area_paging area_paging_simple">
+								<div class="inner_paging">
+									<a [##_prev_page_##] class="link_prev [##_no_more_prev_##]">
+										<span class="ico_skin ico_prev"></span>
+									</a>
+
+									<a [##_next_page_##] class="link_next [##_no_more_next_##]">
+										<span class="ico_skin ico_next"></span>
+									</a>
+								</div>
+							</div>
+						</s_paging>
+
+
+						<div id="mEtc" class="wrap_etc">
+							<div class="inner_aside">
+								<s_sidebar>
+									<s_sidebar_element>
+										<!-- 달력 -->
+										<div class="box_aside">
+											[##_calendar_##]
+										</div>
+									</s_sidebar_element>
+									<s_sidebar_element>
+										<div class="box_aside">
+											<div class="crop">
+												<img src="./images/IMG_7892.jpg" class="pos_50"/>
+											</div>
+										</div>
+									</s_sidebar_element>
+									<s_sidebar_element>
+										<div class="box_aside">
+											<div class="crop">
+												<img src="./images/IMG_7892.jpg" class="pos_20"/>
+											</div>
+										</div>
+									</s_sidebar_element>
+									<s_sidebar_element>
+										<div class="box_aside">
+											<div class="crop">
+												<img src="./images/IMG_7892.jpg" class="pos_80"/>
+											</div>
+										</div>
+									</s_sidebar_element>
+								</s_sidebar>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr class="hide">
+			</div>
+		</s_t3>
+
+		<script src="./images/script.js"></script>
+		<script>
+			(function($) {
+				$.Area.init();
+			})(jQuery);
+		</script>
+
+	</body>
+</html>
