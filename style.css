@@ -183,6 +183,9 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 .skin_view .area_view blockquote ul:last-child,
 .skin_view .area_view blockquote p:last-child { margin-bottom:0 }
 
+.skin_view .area_view table { margin-bottom: 20px; }
+.skin_view .area_view table tr td { border: 1px solid #808080; padding: 10px 0;}
+
 .skin_view .area_view pre { background-color:#F6F7F8; margin:28px auto; padding:16px; word-wrap: break-word; font-family: Menlo,Consolas,Monaco,monospace; font-size:14px; line-height:20px}
 .skin_view .area_view iframe { max-width:100% }
 
@@ -222,6 +225,21 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 .skin_view .another_category table th a.current { text-decoration:underline !important; font-weight:normal; }
 .skin_view .another_category table th span { font-size:12px }
 .skin_view .another_category table td { display:none }
+
+.skin_view .btn-toggle-moreless {
+  width: 100%;
+  font-size: 13px !important;
+  text-align: center;
+  display: inline-block;
+  color: #000 !important;
+  margin-bottom: 20px;
+}
+
+.skin_view .moreless-content {
+  padding: 10px;
+  border-top: 1px dashed;
+  border-bottom: 1px dashed;
+}
 
 /* 댓글영역 */
 .skin_view .area_reply{margin-top:40px}
