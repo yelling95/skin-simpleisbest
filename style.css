@@ -313,6 +313,8 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 .list_content .detail_info{margin-top:16px;font-size:12px;color:#aaa;}
 .list_content .detail_info .link_cate{font-size:12px;text-decoration:none;color:#808080}
 
+.article_skin .notice_view + * {display: none;}
+
 /* 방명록 */
 .skin_visitor .area_reply .list_reply{display:block;margin-top:30px;border-top:1px solid #eee}
 .skin_visitor .area_reply .reply_write{margin-top:32px}

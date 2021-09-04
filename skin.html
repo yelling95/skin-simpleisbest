@@ -103,16 +103,61 @@
 
 				<div id="dkContent" class="cont_skin" role="main">
 					<div id="cMain">
+            <!-- 공지사항 -->
+            <s_notice_rep>
+              <div id="mArticle" class="article_skin">
+                <s_permalink_article_rep>
+									<div class="skin_view notice_view">
+										<div class="area_title">
+											<div class="tit_category"><a href="/notice">공지사항</a></div>
+											<h3 class="tit_post"><a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a></h3>
+											<span class="txt_detail my_post">
+                        [##_notice_rep_author_##]
+											  <span class="txt_bar"></span>[##_notice_rep_date_##]
+											</span>
+										</div>
+										<div class="area_view">
+											[##_notice_rep_desc_##]
+										</div>
+										<div class="area_etc">
+											<strong class="screen_out">Share Link</strong>
+											<ul class="list_share">
+												<li><a href="#none" class="ico_skin link_fb" data-service="facebook">Fasebook</a></li>
+												<li><a href="#none" class="ico_skin link_tw" data-service="twitter">Twitter</a></li>
+											</ul>
+										</div>
+									</div>
+								</s_permalink_article_rep>
+                <s_index_notice_rep>
+                  <div class="list_content notice_content">
+                    <s_notice_rep_thumbnail>
+                      <a href="[##_notice_rep_link_##]" class="thumbnail_post">
+                      <img src="//i1.daumcdn.net/thumb/C148x148/?fname=[##_notice_rep_thumbnail_raw_url_##]"></a>
+                    </s_notice_rep_thumbnail>
+                    <a href="[##_notice_rep_link_##]" class="link_post">
+                      <strong class="tit_post">[##_notice_rep_title_##]</strong>
+                      <p class="txt_post">[##_notice_rep_summary_##]</p>
+                    </a>
+                    <div class="detail_info">
+                      <span class="link_cate">공지사항</span>
+                      <span class="txt_bar"></span>
+                      [##_notice_rep_date_##]
+                    </div>
+                  </div>
+                </s_index_notice_rep>
+              </div>
+            </s_notice_rep>
 						<s_article_rep>
 							<div id="mArticle" class="article_skin">
 								<s_index_article_rep>
 									<div class="list_content">
 										<s_article_rep_thumbnail>
-										<a href="[##_article_rep_link_##]" class="thumbnail_post"><img src="//i1.daumcdn.net/thumb/C148x148/?fname=[##_article_rep_thumbnail_raw_url_##]"></a>
+										  <a href="[##_article_rep_link_##]" class="thumbnail_post">
+                      <img src="//i1.daumcdn.net/thumb/C148x148/?fname=[##_article_rep_thumbnail_raw_url_##]"></a>
 										</s_article_rep_thumbnail>
 										<a href="[##_article_rep_link_##]" class="link_post">
-										<strong class="tit_post">[##_article_rep_title_##]</strong>
-										<p class="txt_post">[##_article_rep_summary_##]</p>
+                      <strong class="tit_post">[##_article_rep_title_##]</strong>
+                      <p class="txt_post">[##_article_rep_summary_##]</p>
 										</a>
 										<div class="detail_info">
 											<a href="[##_article_rep_category_link_##]" class="link_cate">[##_article_rep_category_##]</a>
